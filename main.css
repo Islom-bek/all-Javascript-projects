@@ -1,0 +1,20 @@
+body {
+    background: 
+    #f0eff8;
+    height: 65rem;
+}
+
+.cards {
+    /* display: flex; */
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    transform: scale(0.95);
+    transition: all 0.8s ease;
+    background-color: #23243f;
+    outline: none;
+    border: none;
+}
+

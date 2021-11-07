@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <nav class="navbar  navbar-expand-lg  navbar-light bg-light shadow" style="height: 5rem;">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-5 fs-2" href="#">Here is some <span class="fw-bold" style=" color: rgba(248, 225, 17, 0.959)">Vanilla JavaScript</span>  projects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search project" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<section class="cards  d-flex justify-content-center align-items-center flex-column " style="padding-bottom : 3rem" >
+  
+    <h1 class="h1  fs-1 fw-bold" style="padding: 15rem 0 21rem 0 ; text-transform : uppercase ;" >Welcome !    see projects below</h1>
+
+    <div class="card one w-50 border-2 shadow  bg-body rounded  ">
+        <div class="card-body">
+          <h5 class="card-title">Snake game</h5>
+          <p class="card-text">in this project you can play snake game</p>
+          <a href="/snake/snake.html" class="btn btn-primary">open project</a>
+        </div>
+    </div>
+
+    <div class="card two w-50 shadow  bg-body rounded p-2 ">
+        <div class="card-body">
+          <h5 class="card-title">Tik tak tao</h5>
+          <p class="card-text">tic tak tao.</p>
+          <a href="/Tic tac tao/index.html" class="btn btn-primary">open project</a>
+        </div>
+    </div>
+
+    <div class="card three w-50 shadow  bg-body rounded p-2">
+        <div class="card-body">
+          <h5 class="card-title">Quize game </h5>
+          <p class="card-text">in this project you can train your brain</p>
+          <a href="/quiz/quiz.html" class="btn btn-primary">open project</a>
+        </div>
+    </div>
+
+    <div class="card four w-50 shadow  bg-body rounded  p-2 " >
+        <div class="card-body">
+          <h5 class="card-title">Typing  game </h5>
+          <p class="card-text">in this project you can check your typing speed</p>
+          <a href="/typing game/index.html" class="btn btn-primary">open project</a>
+        </div>
+    </div>
+
+    <div class="card five w-50 shadow  bg-body rounded  p-2 " >
+      <div class="card-body">
+        <h5 class="card-title">Clock</h5>
+        <p class="card-text">This is a bonus project</p>
+        <a href="/clock/clock.html" class="btn btn-primary">open project</a>
+      </div>
+    </div>
+
+    <div class="card five w-50 shadow  bg-body rounded  p-2 " >
+      <div class="card-body">
+        <h5 class="card-title">Piano</h5>
+        <p class="card-text">project for who loves music</p>  
+        <a href="/Piano/piano.html" class="btn btn-primary">open project</a>
+      </div>
+    </div>
+</section>
+
+
+<div class="alert alert-success d-none" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+
+
+<script>
+  ScrollReveal({
+    reset : true ,
+    distance : '70px',
+    duration : 2500,
+    delay : 600
+  });
+  ScrollReveal().reveal('.h1' ,  { delay: 400 , origin : 'top'  } );
+  ScrollReveal().reveal('.one' , { delay: 600 , origin : 'rigt'} );
+  ScrollReveal().reveal('.two' , { delay: 600 , origin : 'rigt'} );
+  ScrollReveal().reveal('.three',{ delay:700 , origin : 'rigt'} );
+  ScrollReveal().reveal('.four' ,{ delay: 800 , origin : 'rigt'} );
+  ScrollReveal().reveal('.five' ,{ delay: 900 , origin : 'rigt'} );
+</script>
+</body>
+</html>

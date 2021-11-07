@@ -1,0 +1,73 @@
+body {
+    position: relative;
+    background: #00a82d;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px rgb(99, 98, 98) solid;
+    position: absolute;
+    left: 35rem;
+    top: 10rem;
+    background: #23d997;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    background: #1b6a6b;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 5px solid rgb(226, 226, 226);
+    height: 30px;
+    width: 30px;
+
+}
+
+.apple{ 
+    background: rgb(207, 33, 33);
+    border-radius: 50%;
+}
+
+.btn {
+    position: absolute;
+    right: 44rem;
+    top: 40rem;
+    background: rgb(95, 76, 184);
+    color: rgb(182, 182, 182);
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    transform: scale(0.96);
+    transition: all 0.8s ease;
+    color: rgb(255, 255, 255);
+    /* font-size: 1.3rem; */
+    background: rgb(84, 63, 218);
+}
+
+.score {
+    position: absolute;
+    left: 42.5rem;
+    top: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(243, 243, 243);
+}
+
+.score span {
+    font-weight: bolder;
+    color: rgb(231, 22, 22);
+}
